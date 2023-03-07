@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lifex.Client.MainPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Frame BackgroundColor="#2196F3" Padding="12" CornerRadius="0">
+            <Label Text="Lifex client" HorizontalTextAlignment="Center" TextColor="White" FontSize="28"/>
+        </Frame>
+
+        <StackLayout Grid.Row="1">
+
+            <Button Grid.Row="2" Text="Add purchase" FontSize="16" Margin="4" />
+
+        </StackLayout>
+
+        <Button Grid.Row="2" Text="Exit" FontSize="16" Margin="4" />
+
+    </Grid>
+
+</ContentPage>
